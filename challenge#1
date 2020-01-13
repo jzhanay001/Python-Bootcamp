@@ -16,7 +16,7 @@ input_list=sum1([1,1]) # only will accept input numbers that are in int or float
                         # if a string is put in, an error will show up
 print (input_list)
 
-# Another way to write code for user input
+# Another way to write code with user input
 
 def sum1():
 
