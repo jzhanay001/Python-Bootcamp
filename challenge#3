@@ -1,0 +1,8 @@
+def evens(n):
+
+    N=abs(n)
+    answer=N*2
+    return answer
+    
+d=evens(1000) # input integer number here
+print (d)
