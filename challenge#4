@@ -1,0 +1,15 @@
+def compare(a,b):
+    if a != b:
+        x=a.difference(b)
+        y=b.difference(a)
+        return list(x.union(y))
+    else:
+        x=a.difference(b)
+        y=b.difference(a)
+        return list(x.union(y))
+
+a=set([1, 3, 5])    #input list # here for a
+b=set([1, 2, 3, 4]) #input list # here for b
+Com=compare(a,b)
+
+print (Com)
