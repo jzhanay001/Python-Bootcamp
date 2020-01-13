@@ -1,0 +1,9 @@
+def odds(n):
+    od_list=[]
+    for i in range (0,n+1):
+        if i % 2 != 0 :
+            od_list.append(i)
+    return od_list
+
+b=odds(19) # input numbers here, int
+print (b)
