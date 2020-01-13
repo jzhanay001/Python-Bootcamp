@@ -1,8 +1,9 @@
 def evens(n):
-
     N=abs(n)
-    answer=N*2
-    return answer
-    
-d=evens(1000) # input integer number here
-print (d)
+    if type(N) == type(50):
+        answer=N*2
+        return answer
+    else:
+        return
+d=evens(19)  # input numbers here, only accept int number
+print (d)       # other type will return None
