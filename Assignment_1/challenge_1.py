@@ -1,16 +1,16 @@
 def sum1(list):
-    A=len(list)
+    length=len(list)
 
     if type(sum(list)) == type(50) or type(sum(list)) == type(5.0):
 
-        if A != 0:
+        if length != 0:
             b=sum(list)
             return b
         else:
             b=sum(list)
             return b
     else:
-        return
+        return None
 
 input_list=sum1([1,1]) # only will accept input numbers that are in int or float
                         # if a string is put in, an error will show up

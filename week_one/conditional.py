@@ -7,6 +7,7 @@ elif number > (min_num-2) and number < (max_num+2):
     print("Kinda nice")
 else:
     print("not nice")"""
+"""
 class Hello:
     def __init__ (self, name):
         self.name=name
@@ -20,3 +21,13 @@ print (hello.name, hello.age)
 a=[2,10,4,7,8,1,7,6]
 print(a[:3])
 print(a[3:])
+"""
+def boo():
+    x=3
+    y=2
+    return x, y
+def vix():
+    x,y=boo()
+    return x,y
+
+print(vix())

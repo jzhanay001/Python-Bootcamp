@@ -6,5 +6,5 @@
 # Splicing: index from 0 to 5 , list written Hotdog
 
 A="HOTDOG"
-print(A=[3:])
-print(A=[:3])
+print(A[:3])
+print(A[3:])

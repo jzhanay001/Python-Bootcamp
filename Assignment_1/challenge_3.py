@@ -4,7 +4,7 @@ def evens(n):
         answer=N*2
         return answer
     else:
-        return
+        return None
 d=evens(19)  # input numbers here, only accept int number
 print (d)       # other type will return None
 

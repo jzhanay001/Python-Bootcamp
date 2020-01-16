@@ -1,3 +1,5 @@
+import random
+
 '''def dice_roll():
     """
     returns a coin flip- random integer between 0 and 1
@@ -7,14 +9,9 @@
 
     return(random.randint(1,6) )#equal chance of being on head or tails'''
 
-def roll_dice():
-        """
-        returns a coin flip- random integer between 0 and 1
-        if 1 - the coin lands on head
-        if 0 - the coin lands on tail
-        """
+def roll_dice(highest_num):
 
-        return(random.randint(1,dice_max) )#equal chance of being on head or tails
+        return random.randint(1,highest_num)
 def monte_carlo(n):
     pass
     """
