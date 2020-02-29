@@ -1,4 +1,6 @@
 import random
+"""
+"""
 
 def flip_coin():
 
